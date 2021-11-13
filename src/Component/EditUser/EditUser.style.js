@@ -2,8 +2,11 @@ import { makeStyles } from '@material-ui/core';
 
 const useStyles = makeStyles({
   container: {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
     width: '50%',
-    margin: '5% 0 0 25%',
     '& > *': {
       marginTop: 20,
     },
